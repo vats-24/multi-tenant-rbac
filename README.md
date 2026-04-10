@@ -67,15 +67,3 @@ Routes are guarded using `preHandler` hooks:
   preHandler: [app.guard.scope(PERMISSIONS["users:roles:write"])];
 }
 ```
-
----
-
-## ⚙️ Setup & Installation
-
-### 1. Clone and Install
-
-```bash
-git clone <your-repo-url>
-cd <project-folder>
-npm install
-```
