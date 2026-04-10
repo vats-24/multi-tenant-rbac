@@ -1,0 +1,35 @@
+{
+  "name": "fast-driz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/main.ts",
+    "migrate": "drizzle-kit generate:pg",
+    "start": "tsx watch practice.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.40.1",
+    "drizzle-orm": "^0.30.7",
+    "fastify": "^4.26.2",
+    "fastify-guard": "^2.0.0",
+    "fastify-zod": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5",
+    "pino-pretty": "^11.0.0",
+    "zennv": "^0.1.1",
+    "zod": "^3.22.4" 
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/pg": "^8.11.5",
+    "drizzle-kit": "^0.20.14",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4",
+    "zod-to-json-schema": "^3.22.5"
+  }
+}
